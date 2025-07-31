@@ -191,6 +191,14 @@ p {
     transform: translateY(-2px);
 }
 
+.ver-programa {
+  display: inline-block;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+}
+
+
+
 /* Grid Layouts */
 .grid-3 {
     display: grid;
@@ -845,6 +853,8 @@ p {
 .modalidad-card {
   position: relative;
 }
+
+
 
 
 
