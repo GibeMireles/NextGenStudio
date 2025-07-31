@@ -829,6 +829,22 @@ p {
   
 }
 
+.etiqueta-proximamente {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ffcc00;
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+.modalidad-card {
+  position: relative;
+}
 
 
 
