@@ -18,11 +18,12 @@
         <nav class="nav">
             <a href="#beneficios">Beneficios</a>
             <a href="#contenido">Contenido</a>
+             <a href="#inversion">Inversión</a>
             <a href="#certificacion">Certificación</a>
             <a href="#modalidades">Modalidades</a>
             <!--
             <a href="#testimonios">Testimonios</a>-->
-            <a href="#contacto">Inscripción</a>
+            <a href="#contacto">Registro</a>
             <a href="#sobre-mi">Sobre mi</a>
         </nav>
     </div>
@@ -122,6 +123,21 @@ Aprende con herramientas reales, proyectos útiles y certificaciones opcionales.
 </div>
     </section>
 
+
+<!--Precios-->
+<section id="inversion" class="pricing-section bg-light">
+  <div class="container">
+    <div class="pricing-card">
+      <h3 class="titulo-precio">Inversión Mensual</h3>
+      <p class="monto-precio">$1,500 MXN</p>
+      <p class="detalle-precio">Incluye certificaciones oficiales, plataformas digitales y asesoría personalizada en vivo.</p>
+      <a href="#contacto" class="button primary">Inscribirme ahora</a>
+    </div>
+  </div>
+</section>
+
+
+
     <section id="certificacion" class="section">
         <div class="container">
             <h3>Certificaciones Digitales Incluidas por Módulo</h3>
@@ -204,8 +220,8 @@ Aprende con herramientas reales, proyectos útiles y certificaciones opcionales.
                     <input type="email" id="email_padre" name="email_padre" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefono_padre">Tu Teléfono (Opcional)</label>
-                    <input type="tel" id="telefono_padre" name="telefono_padre">
+                    <label for="telefono_padre">Tu Teléfono</label>
+                    <input type="tel" id="telefono_padre" name="telefono_padre" required>
                 </div>
                 <div class="form-group">
                     <label for="nombre_hijo">Nombre de tu Hij@</label>
@@ -215,6 +231,7 @@ Aprende con herramientas reales, proyectos útiles y certificaciones opcionales.
                     <label for="edad_hijo">Edad de tu Hij@</label>
                     <input type="number" id="edad_hijo" name="edad_hijo" min="15" max="25" required>
                 </div>
+                <p class="precio-aviso">Inversión de matrícula: <strong>$1,500 MXN/mes (IVA no incluido)</strong></p>
                 <button type="submit" class="button primary">Solicitar Información</button>
             </form>
 <div id="mensaje-formulario" class="mensaje-formulario"></div>
