@@ -858,13 +858,13 @@ p {
 /* Precios */
 
 .pricing-section {
-  padding: .15rem 1rem;
-  background-color: #f9fafb;
+  padding: 3rem 1rem;
+  background-color: #fff;
   text-align: center;
 }
 
 .pricing-card {
-  background-color: #fff;
+  background-color: #f9fafb;
   max-width: 500px;
   margin: 0 auto;
   padding: 2.5rem 2rem;
