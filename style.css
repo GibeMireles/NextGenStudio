@@ -919,7 +919,7 @@ p {
 }
 @media (max-width: 768px) {
   .whatsapp-float {
-    display: none;
+    display: flex;
   }
 }
 
