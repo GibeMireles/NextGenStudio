@@ -895,24 +895,24 @@ p {
 /* Botón flotante de WhatsApp */
 .whatsapp-float {
   position: fixed;
-  bottom: 20px;
+  bottom: 120px; /* para que no se encimen */
   right: 20px;
-  z-index: 999;
-  width: 60px;
-  height: 60px;
+  width: 56px;
+  height: 56px;
   background-color: #25D366;
   border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease;
 }
 
 .whatsapp-float img {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
 }
+
 
 .whatsapp-float:hover {
   transform: scale(1.1);
@@ -970,6 +970,12 @@ p {
   transform: scale(1.15);
 }
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 100px; /* Aumenta este valor para subir más el botón */
+  right: 15px;
+  z-index: 9999;
+}
 
 
 
